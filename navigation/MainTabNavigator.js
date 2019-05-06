@@ -13,14 +13,14 @@ const HomeStack = createStackNavigator({
 });
 
 HomeStack.navigationOptions = {
-  tabBarLabel: 'Home',
+  tabBarLabel: 'Map',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
       name={
         Platform.OS === 'ios'
-          ? `ios-information-circle${focused ? '' : 'md-outline'}`
-          : 'md-information-circle'
+          ? `ios-information-circle${focused ? '' : 'md-globe'}`
+          : 'md-globe'
       }
     />
   ),
@@ -35,7 +35,7 @@ LinksStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'}
+      name={Platform.OS === 'ios' ? 'ios-link' : 'md-list'}
     />
   ),
 };
@@ -49,22 +49,22 @@ CreateStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'}
+      name={Platform.OS === 'ios' ? 'ios-options' : 'md-clipboard'}
     />
   ),
 };
 
 
-const Chat = createStackNavigator({
+const Wallet = createStackNavigator({
   Settings: SettingsScreen,
 });
 
-Chat.navigationOptions = {
-  tabBarLabel: 'Chat',
+Wallet.navigationOptions = {
+  tabBarLabel: 'Wallet',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'}
+      name={Platform.OS === 'ios' ? 'ios-options' : 'md-cube'}
     />
   ),
 };
@@ -72,6 +72,7 @@ Chat.navigationOptions = {
 export default createBottomTabNavigator({
   HomeStack,
   LinksStack,
-  Chat,
-  CreateStack
+  CreateStack,
+  Wallet,
+
 });
