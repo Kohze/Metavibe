@@ -11,6 +11,8 @@ import {
 import { WebBrowser } from 'expo';
 import MapView from 'react-native-maps'
 import { Marker } from 'react-native-maps';
+import { Constants, Location, Permissions } from 'expo';
+
 
 
 
@@ -21,53 +23,79 @@ export default class HomeScreen extends React.Component {
     header: null,
   };
 
+  state = {
+    data: [],
+    latitude : 52.204861,
+    longitude : 0.1163444,
+  };
+
+  componentWillMount() {
+      this._getLocationAsync();
+  }
+
+  _getLocationAsync = async () => {
+    let { status } = await Permissions.askAsync(Permissions.LOCATION);
+    if (status !== 'granted') {
+      this.setState({
+        errorMessage: 'Permission to access location was denied',
+      });
+    }
+
+    let location = await Location.getCurrentPositionAsync({});
+    this.setState({ location });
+    this.setState({ latitude : location.coords.latitude, longitude : location.coords.longitude })
+  };
+
+
+
+  async componentDidMount() {
+    var b64 = "eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LmgxIjoiNGQ2NTc0NjE1NjY5NjI2NTQxNmM3MDY4NjEifSwibGltaXQiOjIwfX0=";
+    var url = "https://genesis.bitdb.network/q/1FnauZ9aUH2Bex6JzdcV4eNX7oLSSEbxtN/eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LmgxIjoiNGQ2NTc0NjE1NjY5NjI2NTQxNmM3MDY4NjEifSwibGltaXQiOjIwfX0=" + b64;
+    var header = {
+      headers: { key: "1KJPjd3p8khnWZTkjhDYnywLB2yE1w5BmU" }
+    };
+
+    const response = await fetch(url, header);
+    const json = await response.json();
+    this.setState({ data: json.c });
+  }
+
+
+
   render() {
     return (
       <View style={styles.container}>
       
 <MapView style={StyleSheet.absoluteFillObject}
-
+          
           customMapStyle = {mapstyle}
-          initialRegion={{
-            latitude: 52.204861,
-            longitude: 0.1163444,
-            latitudeDelta: 0.00922,
-            longitudeDelta: 0.0421,
+          region={{
+            latitude: this.state.latitude,
+            longitude: this.state.longitude,
+            latitudeDelta: 0.00222,
+            longitudeDelta: 0.0121,
           }}
         >
-
-    <MapView.Marker
-            coordinate={{latitude: 52.204861,
-            longitude: 0.1163444}}
-            title={"title"}
-            pinColor={'#000'}
-            description={"description"}
+          
+         {this.state.data && this.state.data.map((el,i) => (
+           <MapView.Marker
+            key={i + '-marker'}
+            coordinate={{latitude: parseFloat(el.out[0].s5),
+            longitude: parseFloat(el.out[0].s6)}}
+            title={el.out[0].s2}
          />
+      ))}
 
-             <MapView.Marker
-            coordinate={{latitude: 52.2048711,
-            longitude: 0.1185484}}
-            title={"title"}
-            description={"description"}
-            icon={'http://cdn.com/my-custom-icon.png'}
-         />
-        <MapView.Circle
-            center={{latitude: 52.204871,
-            longitude: 0.1185484}}
+         {this.state.data && this.state.data.map((el,i) => (
+            <MapView.Circle
+            key={i + '-circle'}
+            center={{latitude: parseFloat(el.out[0].s5),
+            longitude: parseFloat(el.out[0].s6)}}
             radius={20}
             fillColor={'rgba(255,0,0,0.3)'}
-            title={"title"}
-            description={"description"}
          />
+      ))}
 
-         <MapView.Circle
-            center={{latitude: 52.204861,
-            longitude: 0.1163444}}
-            radius={20}
-            fillColor={'rgba(255,0,0,0.3)'}
-            title={"title"}
-            description={"description"}
-         />
       </MapView>
         <View>
 

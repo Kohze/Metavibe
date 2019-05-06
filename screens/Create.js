@@ -36,8 +36,13 @@ export default class Create extends React.Component {
     errorMessage: null,
     latitude : null,
     longitude : null,
+    base64StringVar : '',
 
   };
+
+
+
+
 
   _showDialog = () => this.setState({ visible: true });
   _hideDialog = () => this.setState({ visible: false });
@@ -87,8 +92,9 @@ export default class Create extends React.Component {
 
       <View style={styles.bottomContainer}>
       <Text> Slide the moneyButton to upload your Vibe! </Text>
+      <Text> [Base 64 Image uploads are currently inactive] </Text>
       <WebView
-        source={{uri: 'https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/html%2Fmbtn_adapter.html?alt=media&token=1db98aa0-0bf3-40f7-b397-e2345b02ad4f&opcode=MetaVibeProto,' + this.state.title + ',' + this.state.message + ',' + this.state.type + ',' + this.state.latitude + ',' + this.state.longitude}}
+        source={{uri: 'https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/html%2Fmbtn_adapter.html?alt=media&token=1db98aa0-0bf3-40f7-b397-e2345b02ad4f&opcode=MetaVibeAlpha,' + this.state.title + ',' + this.state.message + ',' + this.state.type + ',' + this.state.latitude + ',' + this.state.longitude}}
         style={{height: 200}}
       /> 
       </View>

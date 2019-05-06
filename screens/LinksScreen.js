@@ -1,20 +1,38 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
-import { Searchbar, Avatar, Button, Card, Title, Paragraph } from 'react-native-paper';
+import { ScrollView, StyleSheet, View } from 'react-native';
+import { Searchbar, Avatar, Button, Card, Title, Paragraph, Text } from 'react-native-paper';
 
 
 export default class LinksScreen extends React.Component {
 
   state = {
     firstQuery: '',
+    opdata: null,
+    data: [],
   };
 
    static navigationOptions = {
     header: null,
   };
 
+   async componentDidMount() {
+    var b64 = "eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LmgxIjoiNGQ2NTc0NjE1NjY5NjI2NTQxNmM3MDY4NjEifSwibGltaXQiOjIwfX0=";
+    var url = "https://genesis.bitdb.network/q/1FnauZ9aUH2Bex6JzdcV4eNX7oLSSEbxtN/eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LmgxIjoiNGQ2NTc0NjE1NjY5NjI2NTQxNmM3MDY4NjEifSwibGltaXQiOjIwfX0=" + b64;
+    var header = {
+      headers: { key: "1KJPjd3p8khnWZTkjhDYnywLB2yE1w5BmU" }
+    };
+
+    const response = await fetch(url, header);
+    const json = await response.json();
+    this.setState({ data: json.c });
+  }
+
+
 
   render() {
+
+
+
     const { firstQuery } = this.state;
 
     return (
@@ -25,8 +43,8 @@ export default class LinksScreen extends React.Component {
           onChangeText={query => { this.setState({ firstQuery: query }); }}
           value={firstQuery}
        />
-      
-       <Card style={{margin: 3}}>
+
+      <Card style={{margin: 3}}>
         <Card.Content style={{paddingBottom: 10}}>
           <Title>Park Meetup</Title>
           <Paragraph>20s meetup at the park at 16:00</Paragraph>
@@ -34,6 +52,16 @@ export default class LinksScreen extends React.Component {
         <Card.Cover source={{ uri: 'https://placeimg.com/640/480/nature?t=1557059912909' }} />
        </Card>
 
+      {this.state.data && this.state.data.map((el,i) => (
+           <Card style={{margin: 3}} key={i}>
+            <Card.Content style={{paddingBottom: 10}}>
+              <Title>{el.out[0].s2}</Title>
+              <Paragraph>{el.out[0].s3}</Paragraph>
+            </Card.Content>
+           </Card>
+      ))}
+
+       
        <Card style={{margin: 3}}>
         <Card.Content style={{paddingBottom: 10}}>
           <Title>Trinity College Tour</Title>
