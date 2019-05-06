@@ -55,6 +55,8 @@ CreateStack.navigationOptions = {
 };
 
 
+
+
 const Wallet = createStackNavigator({
   Settings: SettingsScreen,
 });
@@ -74,5 +76,4 @@ export default createBottomTabNavigator({
   LinksStack,
   CreateStack,
   Wallet,
-
 });

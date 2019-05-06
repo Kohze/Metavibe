@@ -10,6 +10,8 @@ import {
 } from 'react-native';
 import { WebBrowser } from 'expo';
 import MapView from 'react-native-maps'
+import { Marker } from 'react-native-maps';
+
 
 
 import { MonoText } from '../components/StyledText';
@@ -27,12 +29,46 @@ export default class HomeScreen extends React.Component {
 
           customMapStyle = {mapstyle}
           initialRegion={{
-            latitude: 37.78825,
-            longitude: -122.4324,
-            latitudeDelta: 0.0922,
+            latitude: 52.204861,
+            longitude: 0.1163444,
+            latitudeDelta: 0.00922,
             longitudeDelta: 0.0421,
           }}
-        />
+        >
+
+    <MapView.Marker
+            coordinate={{latitude: 52.204861,
+            longitude: 0.1163444}}
+            title={"title"}
+            pinColor={'#000'}
+            description={"description"}
+         />
+
+             <MapView.Marker
+            coordinate={{latitude: 52.2048711,
+            longitude: 0.1185484}}
+            title={"title"}
+            description={"description"}
+            icon={'http://cdn.com/my-custom-icon.png'}
+         />
+        <MapView.Circle
+            center={{latitude: 52.204871,
+            longitude: 0.1185484}}
+            radius={20}
+            fillColor={'rgba(255,0,0,0.3)'}
+            title={"title"}
+            description={"description"}
+         />
+
+         <MapView.Circle
+            center={{latitude: 52.204861,
+            longitude: 0.1163444}}
+            radius={20}
+            fillColor={'rgba(255,0,0,0.3)'}
+            title={"title"}
+            description={"description"}
+         />
+      </MapView>
         <View>
 
                  
