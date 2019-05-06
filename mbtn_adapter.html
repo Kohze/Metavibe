@@ -1,0 +1,60 @@
+<html>
+<head>
+<script src="https://www.moneybutton.com/moneybutton.js"></script>
+<script type="text/javascript" src="https://unpkg.com/bsv@0.21.5/bsv.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.x-git.min.js"></script>
+
+<style>
+body {
+  width: 100%;
+  padding: 10px;
+  font-family: arial;
+  font-size: 12px;
+}
+
+</style>
+
+<script>
+function getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split('&');
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split('=');
+        if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+        }
+    }
+}
+
+let input = getQueryVariable('opcode');
+
+
+inp = input.split(',')
+
+let hex = 'OP_RETURN';
+for(i in inp){
+  hex += ' '  + bsv.Script.buildDataOut(inp[i]).toASM().split(" ")[1];
+}
+
+</script>
+</head>
+<body>
+
+  <div id="my-money-button"></div>
+
+</div>
+</body>
+
+<script>
+
+  const div = document.getElementById('my-money-button')
+  moneyButton.render(div, {
+    outputs: [{
+      type: 'SCRIPT',
+      script: hex,
+      amount: '0.02',
+      currency: 'USD'
+    }]
+  })
+</script>
+</html>
