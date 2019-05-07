@@ -17,6 +17,8 @@
 
 ![Showcase](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FShowcase.jpg?alt=media&token=cc890401-72cd-4061-85da-8bb3c1dee9b6)
 
+![Mockup](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FS7_mockup_preview_2.jpg?alt=media&token=918fde02-a1d3-4af1-b496-6ad6506cfdc7)
+
 ![Application](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FApplication.jpg?alt=media&token=b0594a8e-8386-4302-a5e1-6d98b3af5910)
 
 ![Ecosystem](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fecosystem.jpg?alt=media&token=9bc39d81-2bbe-4e36-a516-fb093c9e48d3)
