@@ -65,9 +65,17 @@ eg song recommendation for that particular geographic location
 
 ![AR](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Far.jpg?alt=media&token=79f614b2-7579-4037-a6c1-8957347e7173)
 
-An AR application, to be embedded within the main React Native app, allows the virtual visualization of messages (represented as tap-able icons) at their real location. The user’s camera provides the background of the image; live GPS location allows dynamic loading of messages within a reasonable distance. Messages have a 3-component location associated with them, so their corresponding icons can be placed in the correct location on the camera feed. The React Native app will communicate with the blockchain, and send a list of nearby messages to the Unity AR app, which will then process their location data and render the virtual icons in real time [MessageAR2/Assets/TapObject.cs]. Downloadable demo version, currently in alpha stage development, is at MessageAR2/MetaVibeAR.
+Augmented reality (AR) is used to allow users to visualize messages in their visible environment in real time. The AR messages track with the physical movement of the user's device, allowing them to see and interact with the messages at their precise location as they move/walk. The message location within the AR portion of the app is shown at a specific height above the ground, allowing content creators to place messages at, for example, façades of buildings or on billboards, etc.
 
-AR mockup: https://3yqf6b.axshare.com
+An AR application, to be embedded within the main React Native app, allows the virtual visualization of messages (represented as tap-able icons) at their real location. The user’s camera provides the background of the image; live GPS location allows dynamic loading of messages within a reasonable distance. Messages have a 3-component location associated with them, so their corresponding icons can be placed in the correct location on the camera feed. The React Native app will communicate with the blockchain, and send a list of nearby messages to the Unity AR app, which will then process their location data and render the virtual icons in real time [MessageAR2/Assets/TapObject.cs]. Downloadable demo version for Android, currently in alpha stage development and featuring moving message icons simulating a user walking down a street, is at [MessageAR2/MetaVibeAR.apk] (NB: the full AR functionality is currently only available on some devices; see ![Vuforia supported devices](https://library.vuforia.com/articles/Solution/vuforia-fusion-supported-devices.html).
+
+Quick facts: 
+
+- AR mockup: https://3yqf6b.axshare.com
+- Made with Unity/Vuforia, the leading platform for fully-featured AR development
+- Allows users to interact with messages in their physical 3-D location
+- Icons stay where they belong in space even as user pans their phone around the environment
+- Highly extensible and customizable - beta stage implementation will include customized message icons, etc.
 
 ![Challenges](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FChallenge.jpg?alt=media&token=aeb27abd-b775-466c-a8b2-1c0e6b0ab438) 
 
