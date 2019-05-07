@@ -8,6 +8,7 @@
 
 
 
+MetaVibe creates a location based meta layer on top of our physical world. Thereby allowing to drop media content, comments and other smart contract based events to specific locations while ensuring that only people at the location can read the content. Here we present the functional prototype (Android & iOS) aswell as the open protocoll of MetaVibe. 
 
 
 ![Frameworks](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FScreenshot_21.jpg?alt=media&token=8d7535f0-e28b-47a6-b279-01c28228ca34)
