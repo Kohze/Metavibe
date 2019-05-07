@@ -3,7 +3,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Kohze/Metavibe.svg)
 ![GitHub issues](https://img.shields.io/github/issues-raw/kohze/Metavibe.svg)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Kohze/fireData/master/LICENSE.txt)
-![MetaVibe](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FheadTitle.jpg?alt=media&token=be4e0fd2-823c-4151-bfb1-dd528bd0ee9d)
+![MetaVibe](http://kohze.com/metaVibe/headTitle.jpg)
 
 
 
@@ -11,17 +11,17 @@ MetaVibe creates a location based meta layer on top of our physical world. There
 
 Key Innovations: Location Based Encryption, MetaVibe Protocol & Ecosystem, Location specific media & smartcontracts, Mediates micro ecosystem and blockchain adoption.
 
-![Frameworks](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FScreenshot_21.jpg?alt=media&token=8d7535f0-e28b-47a6-b279-01c28228ca34)
+![Frameworks](http://kohze.com/metaVibe/Screenshot_21.jpg)
 
 
 
-![Showcase](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FShowcase.jpg?alt=media&token=cc890401-72cd-4061-85da-8bb3c1dee9b6)
+![Showcase](http://kohze.com/metaVibe/Showcase.jpg)
 
-![Mockup](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FS7_mockup_preview_2.jpg?alt=media&token=918fde02-a1d3-4af1-b496-6ad6506cfdc7)
+![Mockup](http://kohze.com/metaVibe/S7_mockup_preview_2.jpg)
 
-![Application](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FApplication.jpg?alt=media&token=b0594a8e-8386-4302-a5e1-6d98b3af5910)
+![Application](http://kohze.com/metaVibe/Application.jpg)
 
-[![ytVideo](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fyt_screen.jpg?alt=media&token=11b9e774-d6eb-4fd9-91f7-58692ccd0a11)](https://www.youtube.com/watch?v=sqAN92Vhqjo)
+[![ytVideo](http://kohze.com/metaVibe/yt_screen.jpg)](https://www.youtube.com/watch?v=sqAN92Vhqjo)
 
 
 People are forming virtual communities, but are increasingly disconnected from their local community. Humans are naturally curious about their physical surroundings and want to interact with other users of that space, but information is suspended in the virtual world without connection to the real world.
@@ -34,11 +34,11 @@ TLDR: While social media enables us to find a variety of connections and events,
 
 
 
-![GardenImage](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fgarden_image2.jpg?alt=media&token=2c2b4d51-ca6b-49e2-a2ea-a2e79952870b)
+![GardenImage](http://kohze.com/metaVibe/garden_image2.jpg)
 
 Our pitch: https://docs.google.com/presentation/d/1uWEwfcsHcMdVM-dcYgeLZg2Nv_ks_OQsPSjmdyV2ves/edit?usp=sharing
 
-![Use Cases](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fuse_cases.jpg?alt=media&token=a5d8c9ba-e4e4-41f4-bad0-dcdeecf4b021) 
+![Use Cases](http://kohze.com/metaVibe/use_cases.jpg) 
 
 
 
@@ -74,7 +74,7 @@ eg song recommendation for that particular geographic location
 - “green” list of valuable locations connected with information child/family friendly content
 
 
-![AR](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Far.jpg?alt=media&token=79f614b2-7579-4037-a6c1-8957347e7173)
+![AR](http://kohze.com/metaVibe/ar.jpg)
 
 Augmented reality (AR) is used to allow users to visualize messages in their visible environment in real time. The AR messages track with the physical movement of the user's device, allowing them to see and interact with the messages at their precise location as they move/walk. The message location within the AR portion of the app is shown at a specific height above the ground, allowing content creators to place messages at, for example, façades of buildings or on billboards, etc.
 
@@ -88,7 +88,7 @@ Quick facts:
 - Icons stay where they belong in space even as user pans their phone around the environment
 - Highly extensible and customizable - beta stage implementation will include customized message icons, etc.
 
-![Challenges](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fchallenge2.jpg?alt=media&token=cef3ce51-f797-42cb-a03c-44a057cd68ce) 
+![Challenges](http://kohze.com/metaVibe/challenge2.jpg) 
 
 **Getting users onto the app**
 - what initial motivation?
@@ -104,9 +104,9 @@ Quick facts:
 - users uploading content get paid in micro-payments
 - incentivises good quality/tailored content
 
-![Ecosystem](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fecosystem.jpg?alt=media&token=9bc39d81-2bbe-4e36-a516-fb093c9e48d3)
+![Ecosystem](http://kohze.com/metaVibe/ecosystem.jpg)
 
-![ecosystemImage](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Feco_screenshot.jpg?alt=media&token=0657db20-b347-457d-af1c-bd2b619a17e2)
+![ecosystemImage](http://kohze.com/metaVibe/eco_screenshot.jpg)
 
 MetaVibe Introduces an extensible blockchain environment for a variety of applications under the same base protocol and same dataset. Therefore, businesses might develop commercially optimised apps that add and access the same environment. MetaVibe is a high level user experience focused Android and iOS implementation within the ecosystem.
 
@@ -125,7 +125,7 @@ op_return scheme:
 - [11] uploader (to enable following people)
 
 
-![Insights](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FInsights.jpg?alt=media&token=9d9c46af-f579-4903-9a08-eff49dd97f42)
+![Insights](http://kohze.com/metaVibe/Insights.jpg)
 
 Since GPS alone can be spoofed, we added additional safeguards to ensure that a user is at the specific location and made it part of the content encryption [not implemented yet]. We thereby found 3 viable solutions to safeguard that a user is actually at the location.
 
@@ -164,13 +164,13 @@ guests, BSSID: 24:a4:3c:df:a0:6a
 
 Since BSSIDs can be recorded and potentially aquired for the location via network database, we added a feature where the user needs to recognigize one or more images at the location (again treshold based). In addition to encryption image the content creator uploads of a easily recognizable detail of the surrounding, a google image search query will add multiple similar looking images. The user then needs to pick the right one in a captcha style
 
-![Captcha](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FCaptcha.jpg?alt=media&token=7fe2f906-fed6-4c53-b968-22c7392b2a72)
+![Captcha](http://kohze.com/metaVibe/Captcha.jpg)
 
 **Local Knowledge Based**
 
 A third variant is to ask for a key that consists of the answer of locally well known facts, such as the number on a certain building or the opening times of a shop (that might not easily be verifiable online). This method does not require images and is most simple.
 
-![Legal](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FLegal.jpg?alt=media&token=175af31e-dbbd-4b0b-aa23-ca8e54f70060)
+![Legal](http://kohze.com/metaVibe/Legal.jpg)
 
 **1. Illegal or harmful content uploaded to MetaVibe**
 
@@ -202,7 +202,7 @@ MetaVibe will secure the IP behind the app concept via patent with the UK Intell
 Sources:
 (1) The Malicious Communications Act 1988 prohibits the sending of messages which are threatening or grossly offensive; it applies whether the message is through the post or through any form of electronic communication. The Computer Misuse Act 1990 targets online behaviour, introducing criminal liability for hacking and other unauthorised access or modification of computer material.
 
-![Demo](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fdemo.jpg?alt=media&token=5106de9f-e600-4f2d-8b79-caefede9187b)
+![Demo](http://kohze.com/metaVibe/demo.jpg)
 
 Install: 
 clone repo, then:
@@ -214,9 +214,9 @@ Quick peek at Android demo via Expo App in Google Playstore: exp://172.29.13.101
 Update: 7-05-2019 18:30:
 - The App got in the meantime published to the permanent Expo repository (optimized to Android). Download the Expo App and scan the QR code below to use the app. 
 
-![QR](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FD5-QfzBX4AcfoA8.png?alt=media&token=180e934c-dee9-4cd7-8fd6-e744841746a0)
+![QR](http://kohze.com/metaVibe/qr.png)
 
-![Team](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FTeam.jpg?alt=media&token=9371a023-4fb9-43af-986a-77a70aa5e42e)
+![Team](http://kohze.com/metaVibe/Team.jpg)
 
 - Robin Kohze, PhD Student, Cambridge Department of Genetics
 - Chris Maits, MPhil Student, Cambridge Law
