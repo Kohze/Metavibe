@@ -21,6 +21,64 @@
 
 ![Application](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FApplication.jpg?alt=media&token=b0594a8e-8386-4302-a5e1-6d98b3af5910)
 
+
+![Use Cases](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fuse_cases.jpg?alt=media&token=a5d8c9ba-e4e4-41f4-bad0-dcdeecf4b021) 
+
+- editable content - like wikipedia
+- content to have the handle, identifier, qualifications of the person who added it (adds credibility/weight to the content)
+- user could select a tour of a city based entirely on content uploaded by PhD level content loaders
+eg Kings college professor uploads a history of kings college chapel, including personal anecdotes about his experience of the chapel 
+- phone of user buzzes each time they are standing beside a site that has such content <- don’t think it should buzz all the time unless set
+- boosting tourist numbers at tourist locations
+- helping preserve historic sites/natural spaces/local wildlife
+- visitors deposit small fee after enjoying interacting with that space
+- making micro-transfers to charities (eg homeless people on the street?)
+- uses facial recognition software to identify the individual and transfer bitcoin-based currency to geographically proximate homeless shelter
+- homeless man can then cash-in the bitcoin received throughout the day for food/shelter
+benefits - removes the risk of addicts spending money on drugs/alcohol
+negatives - citizens waving smartphones in faces of homeless - bad optics; incentivise more beggars/homeless people on streets?
+- leaving messages/media at specified locations
+eg song recommendation for that particular geographic location
+- film location - linked to that site
+- book recommendation that would suit that site
+- poem written about that site
+- photos previously taken at that site
+- visiting former home/gravesite of famous person - access biography, interactive content on their life
+- comment thread attached to a geographic location
+- including jokes from previous visitors 
+- can add to the banter/chat around the statue/site/location
+- can vote for best jokes/puns on each location
+- can make small payments to best joke/pun
+- good for people travelling alone to tap into the kind of experience group travellers have - ie the interpretation/cultural interaction/experiencing of the sights/locations
+- getting location based ticket for event in proximity (eg a museum, niche concert)
+- Rewarded in micropayments for: Reading warning signs for X seconds
+- Exchange for some rewards 
+- gym access --> while a tourist?
+- buying virtual tours all around the city (audiobook / description)
+- local users upload recommended jogging routes in the area
+- useful for visitors who don’t know the lie of the land (eg quiet backstreets, good parks)
+- getting tips for interesting insights left behind 
+- receiving bitcoins after certain “achievements” (running, exploring)
+- drop bitcoins to everyone at the current location
+- “green” list of valuable locations connected with information
+child/family friendly content
+
+![Challenges](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FChallenge.jpg?alt=media&token=aeb27abd-b775-466c-a8b2-1c0e6b0ab438) 
+
+**Getting users onto the app**
+- what initial motivation?
+- sticker on the physical location - “download this app for more information on this site”
+- starts to build awareness of the app’s existence and build broader interest 
+- how do they find out about the app
+
+**Initial bitcoin injection**
+- payments from advertisers seeking to connect with their customers
+- ie customer gets paid to accept ads from products they already enjoy
+
+**Medium/long term bitcoin ecosystem**
+- users uploading content get paid in micro-payments
+- incentivises good quality/tailored content
+
 ![Ecosystem](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fecosystem.jpg?alt=media&token=9bc39d81-2bbe-4e36-a516-fb093c9e48d3)
 
 MetaVibe Introduces an extensible blockchain environment for a variety of applications under the same base protocol and same dataset. Therefore, businesses might develop commercially optimised apps that add and access the same environment. MetaVibe is a high level user experience focused Android and iOS implementation within the ecosystem.
@@ -41,6 +99,39 @@ op_return scheme:
 
 
 ![Insights](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FInsights.jpg?alt=media&token=9d9c46af-f579-4903-9a08-eff49dd97f42)
+
+
+Code for creating a list of local wifi networks
+
+https://github.com/devstepbcn/react-native-android-wifi
+
+
+**GPS + BSSID**
+- content uploader must visit the geographic location in order to deposit the content
+- the list of SSIDs it detects as it adds the content will form part of the authentication mechanism (along with GPS coordinates)
+- Downside of this: restricts content contributors to locals
+- Positive of this: keeps the ‘hyperlocality’ nature of the app
+- this is key value add of MetaVibe 
+- facebook, twitter, wikipedia allow content to be shared with individuals across the globe 
+but they are sharing a purely ‘online’ interaction
+- this app allows content to be shared at a specific physical location, through different temporal landscapes → with the option to 
+
+```
+Eg: Wifi networks near King’s College Chapel
+Latitude: 52.2045 to 52.2049
+Longitude: 0.1161 to 0.1173
+‘events’ BSSID: 26:a4:3c:bb:d1:a9
+‘eduroam’ BSSID: 36:a4:3c:bb:d1:a9
+‘eduroam’ BSSID: 2e:a4:3c:bb:df:ae
+‘Guest-Rms’ BSSID: 1c:af:f7:2e:2e:3d
+‘e_network’ BSSID: 7c:d1:c3:ca:05:68
+‘_TheCloud’ BSSID: c4:10:8a:19:b3:68
+‘BTOpenzone-CaffeNero’ BBSID: 00:1e:13:45:29:21
+Honor 8 Lite, BSSID: 50:04:b8:2b:b5:b0
+sparessid, BSSID: 32:a4:3c:bb:df:ae
+guests, BSSID: 24:a4:3c:df:a0:6a
+```
+
 
 ![Legal](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FLegal.jpg?alt=media&token=175af31e-dbbd-4b0b-aa23-ca8e54f70060)
 
