@@ -21,6 +21,7 @@
 
 ![Application](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FApplication.jpg?alt=media&token=b0594a8e-8386-4302-a5e1-6d98b3af5910)
 
+![Application](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fgarden_image.jpg?alt=media&token=5272faff-5b01-4a13-adae-7414f8029e97)
 
 ![Use Cases](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fuse_cases.jpg?alt=media&token=a5d8c9ba-e4e4-41f4-bad0-dcdeecf4b021) 
 
@@ -63,6 +64,11 @@ eg song recommendation for that particular geographic location
 - “green” list of valuable locations connected with information
 child/family friendly content
 
+
+![AR](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Far.jpg?alt=media&token=79f614b2-7579-4037-a6c1-8957347e7173)
+
+An AR application, to be embedded within the main React Native app, allows the virtual visualization of messages (represented as tap-able icons) at their real location. The user’s camera provides the background of the image; live GPS location allows dynamic loading of messages within a reasonable distance. Messages have a 3-component location associated with them, so their corresponding icons can be placed in the correct location on the camera feed. The React Native app will communicate with the blockchain, and send a list of nearby messages to the Unity AR app, which will then process their location data and render the virtual icons in real time [MessageAR2/Assets/TapObject.cs]. Downloadable demo version, currently in alpha stage development, is at MessageAR2/MetaVibeAR.
+
 ![Challenges](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FChallenge.jpg?alt=media&token=aeb27abd-b775-466c-a8b2-1c0e6b0ab438) 
 
 **Getting users onto the app**
@@ -80,6 +86,8 @@ child/family friendly content
 - incentivises good quality/tailored content
 
 ![Ecosystem](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fecosystem.jpg?alt=media&token=9bc39d81-2bbe-4e36-a516-fb093c9e48d3)
+
+![ecosystemImage](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Feco_screenshot.jpg?alt=media&token=0657db20-b347-457d-af1c-bd2b619a17e2)
 
 MetaVibe Introduces an extensible blockchain environment for a variety of applications under the same base protocol and same dataset. Therefore, businesses might develop commercially optimised apps that add and access the same environment. MetaVibe is a high level user experience focused Android and iOS implementation within the ecosystem.
 
