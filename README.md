@@ -23,6 +23,23 @@
 
 ![Ecosystem](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fecosystem.jpg?alt=media&token=9bc39d81-2bbe-4e36-a516-fb093c9e48d3)
 
+MetaVibe Introduces an extensible blockchain environment for a variety of applications under the same base protocol and same dataset. Therefore, businesses might develop commercially optimised apps that add and access the same environment. MetaVibe is a high level user experience focused Android and iOS implementation within the ecosystem.
+
+op_return scheme:
+
+- [1] protocolID (MetaVibeAlpha)
+- [2] open message title
+- [3] open message
+- [4] type (to enable filtering)
+- [5] location: longitude
+- [6] location: latitude
+- [7] image
+- [8] persistence time
+- [9] encryption type (msg, wifi, image catpcha)
+- [10] secret message (encrypted) 
+- [11] uploader (to enable following people)
+
+
 ![Insights](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FInsights.jpg?alt=media&token=9d9c46af-f579-4903-9a08-eff49dd97f42)
 
 ![Legal](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FLegal.jpg?alt=media&token=175af31e-dbbd-4b0b-aa23-ca8e54f70060)
