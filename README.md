@@ -9,6 +9,7 @@
 
 MetaVibe creates a location based meta layer on top of our physical world. Thereby allowing to drop media content, comments and other smart contract based events to specific locations while ensuring that only people at the location can read the content. Here we present the functional prototype (Android & iOS) aswell as the open protocoll of MetaVibe. 
 
+Key Innovations: Location Based Encryption, MetaVibe Protocol & Ecosystem, Location specific media & smartcontracts, Mediates micro ecosystem and blockchain adoption.
 
 ![Frameworks](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FScreenshot_21.jpg?alt=media&token=8d7535f0-e28b-47a6-b279-01c28228ca34)
 
@@ -22,17 +23,20 @@ MetaVibe creates a location based meta layer on top of our physical world. There
 
 [![ytVideo](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fyt_screen.jpg?alt=media&token=11b9e774-d6eb-4fd9-91f7-58692ccd0a11)](https://www.youtube.com/watch?v=sqAN92Vhqjo)
 
-While social media enables us to find a variety of connections and events, they also take away a sense of locality and the willingness to explore the unknown. Here we connect user experience of reddit (multi-interest heterogeneity) with the excitement of roleplay games (solving quests) and the exploration aspect of augmented reality games. 
+
+People are forming virtual communities, but are increasingly disconnected from their local community. Humans are naturally curious about their physical surroundings and want to interact with other users of that space, but information is suspended in the virtual world without connection to the real world.
+
+MetaVibe places meta layer on top of our physical world to allow users to drop content (messages, photos, audio etc) to specific physical locations while ensuring that only users who visit that location can interact with that content. MetaVibe encourages a more authentic connection between content and the physical world. MetaVibe heightens the user’s experience of the physical world and heightens the online experience by linking it to the physical world.
+
+MetaVibe will enable users to experience content localised and linked to a physical location.  Like scattering digital breadcrumbs across the physical world for others to read and interact with.  Content can be matched to suit the mood, scenery and history of the place where the creator left it. 
+
+TLDR: While social media enables us to find a variety of connections and events, they also take away a sense of locality and the willingness to explore the unknown. Here we connect user experience of reddit (multi-interest heterogeneity) with the excitement of roleplay games (solving quests) and the exploration aspect of augmented reality games. 
 
 
 
+![GardenImage](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fgarden_image2.jpg?alt=media&token=2c2b4d51-ca6b-49e2-a2ea-a2e79952870b)
 
-
-
-![GardenImage](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fgarden_image.jpg?alt=media&token=5272faff-5b01-4a13-adae-7414f8029e97)
-
-Our pitch: https://docs.google.com/presentation/d/1uQmfxb2AVT_-3oyqTLf3y6_SEYECJtXFnrpyalp2diM/edit?usp=sharing
-
+Our pitch: https://docs.google.com/presentation/d/1uWEwfcsHcMdVM-dcYgeLZg2Nv_ks_OQsPSjmdyV2ves/edit?usp=sharing
 
 ![Use Cases](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fuse_cases.jpg?alt=media&token=a5d8c9ba-e4e4-41f4-bad0-dcdeecf4b021) 
 
@@ -84,7 +88,7 @@ Quick facts:
 - Icons stay where they belong in space even as user pans their phone around the environment
 - Highly extensible and customizable - beta stage implementation will include customized message icons, etc.
 
-![Challenges](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FChallenge.jpg?alt=media&token=aeb27abd-b775-466c-a8b2-1c0e6b0ab438) 
+![Challenges](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fchallenge2.jpg?alt=media&token=cef3ce51-f797-42cb-a03c-44a057cd68ce) 
 
 **Getting users onto the app**
 - what initial motivation?
@@ -123,22 +127,21 @@ op_return scheme:
 
 ![Insights](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FInsights.jpg?alt=media&token=9d9c46af-f579-4903-9a08-eff49dd97f42)
 
+Since GPS alone can be spoofed, we added additional safeguards to ensure that a user is at the specific location and made it part of the content encryption [not implemented yet]. We thereby found 3 viable solutions to safeguard that a user is actually at the location.
 
-Location specific code:
+**BSSID based location authentication:**
+
+TLDR: The router BSSID is used as part of the treshhold encryption, thereby the user needs to know the majority of router identifiers at their location. The BSSIDs of all surrounding routers are used while the user submits the message/event. 
 
 Code for creating a list of local wifi networks
-
 https://github.com/devstepbcn/react-native-android-wifi
 
-
-**GPS + BSSID**
+*GPS + BSSID*
 - content uploader must visit the geographic location in order to deposit the content
 - the list of SSIDs it detects as it adds the content will form part of the authentication mechanism (along with GPS coordinates)
-- Downside of this: restricts content contributors to locals
-- Positive of this: keeps the ‘hyperlocality’ nature of the app
+Downside of this: restricts content contributors to locals
+Positive of this: keeps the ‘hyperlocality’ nature of the app
 - this is key value add of MetaVibe 
-- facebook, twitter, wikipedia allow content to be shared with individuals across the globe 
-but they are sharing a purely ‘online’ interaction
 - this app allows content to be shared at a specific physical location, through different temporal landscapes → with the option to 
 
 ```
@@ -157,6 +160,15 @@ sparessid, BSSID: 32:a4:3c:bb:df:ae
 guests, BSSID: 24:a4:3c:df:a0:6a
 ```
 
+**Image Based Recongition**
+
+Since BSSIDs can be recorded and potentially aquired for the location via network database, we added a feature where the user needs to reconigize one or more images at the location (again treshold based). In addition to encryption image the content creator uploads of a easily reconizable detail of the surrounding, a google image search query will add multiple similar looking images. The user then needs to pick the right one in a captcha style
+
+![Captcha](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FCaptcha.jpg?alt=media&token=7fe2f906-fed6-4c53-b968-22c7392b2a72)
+
+**Local Knowledge Based**
+
+A third variant is to ask for a key that consists of the answer of locally well known facts, such as the number on a certain building or the opening times of a shop (that might not easily be verifiable online). This method does not require images and is most simple.
 
 ![Legal](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FLegal.jpg?alt=media&token=175af31e-dbbd-4b0b-aa23-ca8e54f70060)
 
