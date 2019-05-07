@@ -160,9 +160,9 @@ sparessid, BSSID: 32:a4:3c:bb:df:ae
 guests, BSSID: 24:a4:3c:df:a0:6a
 ```
 
-**Image Based Recongition**
+**Image Based Recognition**
 
-Since BSSIDs can be recorded and potentially aquired for the location via network database, we added a feature where the user needs to reconigize one or more images at the location (again treshold based). In addition to encryption image the content creator uploads of a easily reconizable detail of the surrounding, a google image search query will add multiple similar looking images. The user then needs to pick the right one in a captcha style
+Since BSSIDs can be recorded and potentially aquired for the location via network database, we added a feature where the user needs to recognigize one or more images at the location (again treshold based). In addition to encryption image the content creator uploads of a easily recognizable detail of the surrounding, a google image search query will add multiple similar looking images. The user then needs to pick the right one in a captcha style
 
 ![Captcha](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FCaptcha.jpg?alt=media&token=7fe2f906-fed6-4c53-b968-22c7392b2a72)
 
@@ -210,6 +210,11 @@ clone repo, then:
 - yarn start
 
 Quick peek at Android demo via Expo App in Google Playstore: exp://172.29.13.101:19000
+
+Update: 7-05-2019 18:30:
+- The App got in the meantime published to the permanent Expo repository (optimized to Android). Download the Expo App and scan the QR code below to use the app. 
+
+![QR](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FD5-QfzBX4AcfoA8.png?alt=media&token=180e934c-dee9-4cd7-8fd6-e744841746a0)
 
 ![Team](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FTeam.jpg?alt=media&token=9371a023-4fb9-43af-986a-77a70aa5e42e)
 
