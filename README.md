@@ -1,4 +1,3 @@
-
 ![Protocol](https://img.shields.io/badge/Protocol-BitcoinSV-yellow.svg)
 ![Framework](https://img.shields.io/badge/Framework-ReactNative-blue.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/Kohze/Metavibe.svg)
@@ -21,7 +20,14 @@ MetaVibe creates a location based meta layer on top of our physical world. There
 
 ![Application](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FApplication.jpg?alt=media&token=b0594a8e-8386-4302-a5e1-6d98b3af5910)
 
+[![ytVideo](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fyt_screen.jpg?alt=media&token=11b9e774-d6eb-4fd9-91f7-58692ccd0a11)](https://www.youtube.com/watch?v=sqAN92Vhqjo)
+
 While social media enables us to find a variety of connections and events, they also take away a sense of locality and the willingness to explore the unknown. Here we connect user experience of reddit (multi-interest heterogeneity) with the excitement of roleplay games (solving quests) and the exploration aspect of augmented reality games. 
+
+
+
+
+
 
 ![GardenImage](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fgarden_image.jpg?alt=media&token=5272faff-5b01-4a13-adae-7414f8029e97)
 
