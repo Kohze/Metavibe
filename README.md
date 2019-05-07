@@ -1,6 +1,6 @@
 
 
-![Protocol](https://img.shields.io/badge/Protocol-BitcoinSV-green.svg)
+![Protocol](https://img.shields.io/badge/Protocol-BitcoinSV-yellow.svg)
 ![Framework](https://img.shields.io/badge/Framework-ReactNative-blue.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/Kohze/Metavibe.svg)
 ![GitHub issues](https://img.shields.io/github/issues-raw/kohze/Metavibe.svg)
