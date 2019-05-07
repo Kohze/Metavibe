@@ -1,3 +1,7 @@
+
+
+![Protocol](https://img.shields.io/badge/Protocol-BitcoinSV-green.svg)
+![Framework](https://img.shields.io/badge/Framework-ReactNative-blue.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/Kohze/Metavibe.svg)
 ![GitHub issues](https://img.shields.io/github/issues-raw/kohze/Metavibe.svg)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Kohze/fireData/master/LICENSE.txt)
