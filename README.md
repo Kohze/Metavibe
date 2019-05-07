@@ -177,6 +177,11 @@ Sources:
 
 ![Demo](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fdemo.jpg?alt=media&token=5106de9f-e600-4f2d-8b79-caefede9187b)
 
+Install: 
+clone repo, then:
+- yarn install
+- yarn start
+
 Quick peek at Android demo via Expo App in Google Playstore: exp://172.29.13.101:19000
 
 ![Team](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FTeam.jpg?alt=media&token=9371a023-4fb9-43af-986a-77a70aa5e42e)
