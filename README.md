@@ -1,5 +1,4 @@
 
-
 ![Protocol](https://img.shields.io/badge/Protocol-BitcoinSV-yellow.svg)
 ![Framework](https://img.shields.io/badge/Framework-ReactNative-blue.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/Kohze/Metavibe.svg)
@@ -30,44 +29,38 @@ Our pitch: https://docs.google.com/presentation/d/1uQmfxb2AVT_-3oyqTLf3y6_SEYECJ
 
 ![Use Cases](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fuse_cases.jpg?alt=media&token=a5d8c9ba-e4e4-41f4-bad0-dcdeecf4b021) 
 
-- editable content - like wikipedia
-- content to have the handle, identifier, qualifications of the person who added it (adds credibility/weight to the content)
-- user could select a tour of a city based entirely on content uploaded by PhD level content loaders
+
+
+
+- Place editable content to specified places to enrich user experience and knowledge
+- Follow local creators and see the places they placed content. The content will have the handle, identifier, qualifications of the person who added it (adds credibility/weight to the content)
+- User can select a city tour based entirely on content uploaded by content loaders
 eg Kings college professor uploads a history of kings college chapel, including personal anecdotes about his experience of the chapel 
-- phone of user buzzes each time they are standing beside a site that has such content <- don’t think it should buzz all the time unless set
-- boosting tourist numbers at tourist locations
-- helping preserve historic sites/natural spaces/local wildlife
-- visitors deposit small fee after enjoying interacting with that space
-- making micro-transfers to charities (eg homeless people on the street?)
-- uses facial recognition software to identify the individual and transfer bitcoin-based currency to geographically proximate homeless shelter
-- homeless man can then cash-in the bitcoin received throughout the day for food/shelter
-benefits - removes the risk of addicts spending money on drugs/alcohol
-negatives - citizens waving smartphones in faces of homeless - bad optics; incentivise more beggars/homeless people on streets?
-- leaving messages/media at specified locations
+- phone of user buzzes when reaching a site with previously specified content
+- boosting tourist numbers and experience at tourist locations
+- Adoption and onboarding: Users can receive bitcoin for solving quests and challenges. Businesses owners can share rewards for coming to their location. Thereby boosting costumer & tourist numbers and experience.
+- Beacon wallet that is static to defined places to preserve historic sites/natural spaces/local wildlife
+- Local donations: visitors deposit small fee after enjoying interacting with that space
+- Smart contract based unlocking: facial recognition software to identify the individual and transfer bitcoin-based currency
+- Message dropping: leaving messages/media at specified locations
 eg song recommendation for that particular geographic location
-- film location - linked to that site
-- book recommendation that would suit that site
-- poem written about that site
-- photos previously taken at that site
-- visiting former home/gravesite of famous person - access biography, interactive content on their life
-- comment thread attached to a geographic location
+- Filter ‘Vibes’ by type to see only content of interest
+- Access side specific media content: poem written about that site, book recommendations about the site, photos taken at the site (and get rewarded by tipping mechanism)
+- Add content to monuments: visiting former home/gravesite of famous person - access biography, interactive content on their life
+- Messages and comment thread attached to a geographic location (location specific reddit threads)
 - including jokes from previous visitors 
 - can add to the banter/chat around the statue/site/location
 - can vote for best jokes/puns on each location
-- can make small payments to best joke/pun
+- Content creator tipping: can make small payments to best joke/pun
 - good for people travelling alone to tap into the kind of experience group travellers have - ie the interpretation/cultural interaction/experiencing of the sights/locations
 - getting location based ticket for event in proximity (eg a museum, niche concert)
 - Rewarded in micropayments for: Reading warning signs for X seconds
-- Exchange for some rewards 
-- gym access --> while a tourist?
-- buying virtual tours all around the city (audiobook / description)
-- local users upload recommended jogging routes in the area
-- useful for visitors who don’t know the lie of the land (eg quiet backstreets, good parks)
-- getting tips for interesting insights left behind 
-- receiving bitcoins after certain “achievements” (running, exploring)
-- drop bitcoins to everyone at the current location
-- “green” list of valuable locations connected with information
-child/family friendly content
+- Accessing premium virtual tours all around the city (audiobooks and description)
+- Create activity challenges: local users upload recommended jogging routes in the area. Get rewarded for completing challenges 
+- Trip Advisor: useful for visitors who don’t know the lie of the land (eg quiet backstreets, good parks)
+- Value and reward ecosystem: getting tipped for interesting insights left behind 
+- Location based transfers: drop bitcoins to everyone at the current location or conference 
+- “green” list of valuable locations connected with information child/family friendly content
 
 
 ![AR](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Far.jpg?alt=media&token=79f614b2-7579-4037-a6c1-8957347e7173)
@@ -115,6 +108,8 @@ op_return scheme:
 
 ![Insights](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FInsights.jpg?alt=media&token=9d9c46af-f579-4903-9a08-eff49dd97f42)
 
+
+Location specific code:
 
 Code for creating a list of local wifi networks
 
@@ -191,9 +186,3 @@ Quick peek at Android demo via Expo App in Google Playstore: exp://172.29.13.101
 - Reina Nakamoto, Professional Game Designer 
 - Noah Kessler, PhD Student, Cambridge Department of Genetics
 - Gioia Riboni-Verri, MPhil Student, Cambridge Life Sciences
-
-
-
-
-
-
