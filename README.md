@@ -1,4 +1,10 @@
+![GitHub contributors](https://img.shields.io/github/contributors/Kohze/Metavibe.svg)
+![GitHub issues](https://img.shields.io/github/issues-raw/kohze/Metavibe.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Kohze/fireData/master/LICENSE.txt)
 ![MetaVibe](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FheadTitle.jpg?alt=media&token=be4e0fd2-823c-4151-bfb1-dd528bd0ee9d)
+
+
+
 
 
 ![Frameworks](https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2FScreenshot_21.jpg?alt=media&token=8d7535f0-e28b-47a6-b279-01c28228ca34)
