@@ -7,9 +7,9 @@
 
 
 
-MetaVibe creates a location based meta layer on top of our physical world. Thereby allowing to drop media content, comments and other smart contract based events to specific locations while ensuring that only people at the location can read the content. Here we present the functional prototype (Android & iOS) aswell as the open protocoll of MetaVibe. 
+MetaVibe creates a location based meta layer on top of our physical world. Thereby allowing to drop media content, comments and other smart contract based events to specific locations while ensuring that only people at the location can read the content. Here we present the functional prototype (Android & iOS) as well as the open protocol of MetaVibe. 
 
-Key Innovations: Location Based Encryption, MetaVibe Protocol & Ecosystem, Location specific media & smartcontracts, Mediates micro ecosystem and blockchain adoption.
+Key Innovations: Location Based Encryption, MetaVibe Protocol & Ecosystem, Location specific media & smart contracts, Mediates micro ecosystem and blockchain adoption.
 
 ![Frameworks](http://kohze.com/metaVibe/Screenshot_21.jpg)
 
@@ -49,7 +49,7 @@ Our pitch: https://docs.google.com/presentation/d/1uWEwfcsHcMdVM-dcYgeLZg2Nv_ks_
 eg Kings college professor uploads a history of kings college chapel, including personal anecdotes about his experience of the chapel 
 - phone of user buzzes when reaching a site with previously specified content
 - boosting tourist numbers and experience at tourist locations
-- Adoption and onboarding: Users can receive bitcoin for solving quests and challenges. Businesses owners can share rewards for coming to their location. Thereby boosting costumer & tourist numbers and experience.
+- Adoption and onboarding: Users can receive bitcoin for solving quests and challenges. Businesses owners can share rewards for coming to their location. Thereby boosting customer & tourist numbers and experience.
 - Beacon wallet that is static to defined places to preserve historic sites/natural spaces/local wildlife
 - Local donations: visitors deposit small fee after enjoying interacting with that space
 - Smart contract based unlocking: facial recognition software to identify the individual and transfer bitcoin-based currency
@@ -84,7 +84,7 @@ Quick facts:
 
 - AR mockup: https://3yqf6b.axshare.com
 - Made with Unity/Vuforia, the leading platform for fully-featured AR development
-- Allows users to interact with messages in their physical 3-D location
+- Allows users to interact with messages in their physical 3D location
 - Icons stay where they belong in space even as user pans their phone around the environment
 - Highly extensible and customizable - beta stage implementation will include customized message icons, etc.
 
@@ -120,7 +120,7 @@ op_return scheme:
 - [6] location: latitude
 - [7] image
 - [8] persistence time
-- [9] encryption type (msg, wifi, image catpcha)
+- [9] encryption type (msg, wifi, image captcha)
 - [10] secret message (encrypted) 
 - [11] uploader (to enable following people)
 
@@ -131,7 +131,7 @@ Since GPS alone can be spoofed, we added additional safeguards to ensure that a 
 
 **BSSID based location authentication:**
 
-TLDR: The router BSSID is used as part of the treshhold encryption, thereby the user needs to know the majority of router identifiers at their location. The BSSIDs of all surrounding routers are used while the user submits the message/event. 
+TLDR: The router BSSID is used as part of the threshold encryption, thereby the user needs to know the majority of router identifiers at their location. The BSSIDs of all surrounding routers are used while the user submits the message/event. 
 
 Code for creating a list of local wifi networks
 https://github.com/devstepbcn/react-native-android-wifi
@@ -141,8 +141,7 @@ https://github.com/devstepbcn/react-native-android-wifi
 - the list of SSIDs it detects as it adds the content will form part of the authentication mechanism (along with GPS coordinates)
 Downside of this: restricts content contributors to locals
 Positive of this: keeps the ‘hyperlocality’ nature of the app
-- this is key value add of MetaVibe 
-- this app allows content to be shared at a specific physical location, through different temporal landscapes → with the option to 
+- this app allows content to be shared at a specific physical location, through different temporal landscapes
 
 ```
 Eg: Wifi networks near King’s College Chapel
@@ -162,7 +161,7 @@ guests, BSSID: 24:a4:3c:df:a0:6a
 
 **Image Based Recognition**
 
-Since BSSIDs can be recorded and potentially aquired for the location via network database, we added a feature where the user needs to recognigize one or more images at the location (again treshold based). In addition to encryption image the content creator uploads of a easily recognizable detail of the surrounding, a google image search query will add multiple similar looking images. The user then needs to pick the right one in a captcha style
+Since BSSIDs can be recorded and potentially acquired for the location via network database, we added a feature where the user needs to recognize one or more images at the location (again threshold based). In addition to encryption image the content creator uploads of a easily recognizable detail of the surrounding, a google image search query will add multiple similar looking images. The user then needs to pick the right one in a captcha style
 
 ![Captcha](http://kohze.com/metaVibe/Captcha.jpg)
 
@@ -223,3 +222,5 @@ Update: 7-05-2019 18:30:
 - Reina Nakamoto, Professional Game Designer 
 - Noah Kessler, PhD Student, Cambridge Department of Genetics
 - Gioia Riboni-Verri, MPhil Student, Cambridge Life Sciences
+
+
