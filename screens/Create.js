@@ -94,7 +94,7 @@ export default class Create extends React.Component {
       <Text> Slide the moneyButton to upload your Vibe! </Text>
       <Text> [Base 64 Image uploads are currently inactive] </Text>
       <WebView
-        source={{uri: 'https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/html%2Fmbtn_adapter.html?alt=media&token=1db98aa0-0bf3-40f7-b397-e2345b02ad4f&opcode=MetaVibeAlpha,' + this.state.title + ',' + this.state.message + ',' + this.state.type + ',' + this.state.latitude + ',' + this.state.longitude}}
+        source={{uri: 'https://firebasestorage.googleapis.com/v0/b/spatialmap-1b08e.appspot.com/o/MetaVibe%2Fmbtn_adapter.html?alt=media&token=4c4174e6-4a91-4669-8ee4-7482f39146cf&opcode=MetaVibe2_' + this.state.title + '_' + this.state.message + '_' + this.state.type + '_' + this.state.latitude + '_' + this.state.longitude}}
         style={{height: 200}}
       /> 
       </View>

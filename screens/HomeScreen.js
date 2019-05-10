@@ -49,7 +49,7 @@ export default class HomeScreen extends React.Component {
 
 
   async componentDidMount() {
-    var b64 = "eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LmgxIjoiNGQ2NTc0NjE1NjY5NjI2NTQxNmM3MDY4NjEifSwibGltaXQiOjIwfX0=";
+    var b64 = "eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LnMxIjoiTWV0YVZpYmUyIn0sImxpbWl0IjozMH19";
     var url = "https://genesis.bitdb.network/q/1FnauZ9aUH2Bex6JzdcV4eNX7oLSSEbxtN/eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LmgxIjoiNGQ2NTc0NjE1NjY5NjI2NTQxNmM3MDY4NjEifSwibGltaXQiOjIwfX0=" + b64;
     var header = {
       headers: { key: "1KJPjd3p8khnWZTkjhDYnywLB2yE1w5BmU" }
