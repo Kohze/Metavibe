@@ -49,14 +49,14 @@ export default class HomeScreen extends React.Component {
 
 
   async componentDidMount() {
-    var b64 = "eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LnMxIjoiTWV0YVZpYmUyIn0sImxpbWl0IjozMH19";
-    var url = "https://genesis.bitdb.network/q/1FnauZ9aUH2Bex6JzdcV4eNX7oLSSEbxtN/eyJ2IjozLCJxIjp7ImZpbmQiOnsib3V0LmgxIjoiNGQ2NTc0NjE1NjY5NjI2NTQxNmM3MDY4NjEifSwibGltaXQiOjIwfX0=" + b64;
+    var url = "https://genesis.bitdb.network/q/1FnauZ9aUH2Bex6JzdcV4eNX7oLSSEbxtN/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyJvdXQuczEiIDogIk1ldGFWaWJlMiJ9LAogICAgImxpbWl0IjogMTAKICB9Cn0=";
     var header = {
       headers: { key: "1KJPjd3p8khnWZTkjhDYnywLB2yE1w5BmU" }
     };
 
     const response = await fetch(url, header);
     const json = await response.json();
+    console.log(json.c);
     this.setState({ data: json.c });
   }
 
